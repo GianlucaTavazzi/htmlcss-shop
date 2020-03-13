@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+main{
+    width: 85%;
+    height:100vh;
+    margin:auto;
+}
+.blocco{
+    height:33vh;
+    background-color: white;
+    position: relative;
+}
+
+.riga{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.pbox{
+    width: 100px;
+    height:100px;
+    margin:30px;
+    background-color: red;
+    display: inline-block;
+}
